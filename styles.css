@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    font-size:100px;
+}
+
+p {
+    font-size: 40px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.name {
+    font-weight: bolder;
+    color: #8a29e5;
+}
