@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before-after</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        h1 {
+            font-size: 100px;
+            color: green;
+        }
+
+        p {
+            font-size: 40px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <script>
+        const showCurrentTime = () => {
+            const today = new Date();
+            const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            alert(time)
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Aprenda Academy</h1>
+        </div>
+        <div>
+            <p>I love html and css</p>
+            <button onclick="showCurrentTime()">NOW</button>
+        </div>
+        <div class="footer">
+            never give up ;)
+        </div>
+    </div>
+
+</body>
+
+</html>
