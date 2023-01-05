@@ -3,6 +3,10 @@
     font-family: sans-serif;
     font-size: 22px;
 }  
+
+p{
+  color: black;
+}
   
   section {
     margin: 50px;
